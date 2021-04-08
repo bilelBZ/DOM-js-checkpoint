@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+table{
+    border-spacing: 2px;
+    width: 80%;
+    height:auto;
+    margin: auto;
+    margin-top:20px ;
+    border-collapse: collapse;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+tr{
+    padding: 10px; 
+}
+tr:nth-child(2){
+    border-top:0.5px solid rgb(172, 172, 172);
+}
+input{
+    width: 30px;
+}
+img{
+    width: 50%;
+    height:auto;
+}
+tr:nth-child(1)> td{
+    font-size: 20px;
+}
+.panier{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 30px;
+}
+#addItem{
+    background-color:rgb(5, 109, 5) ;
+    border: none;
+    border-radius: 3px;
+        padding: 7px 20px;
+
+}
+button:hover{
+    opacity: 0.9;
+}
+#deleteItem{
+    background-color:red ;
+    border: none;
+    margin-left: 10px;
+    border-radius: 3px;
+    padding: 7px 20px;
+}
+
+button>a{
+    text-decoration: none;
+    color:#fff;
+}
